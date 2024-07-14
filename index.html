@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payal Goel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4c5cb79c64.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a class="nav-link" href="#header">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#services">Services</a></li>
+                    <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="nav-link1">Interior and Furniture Designer</p>
+                <h1>Hi, I'm <span class="text sec-text">Payal</span><br>from India</h1>
+                <p class="small-text">As a third-year Interior and Furniture Design student at Lovely Professional University in Punjab, I am passionate about crafting spaces that are both functional and visually captivating. With a strong desire to apply my design knowledge to real-world projects, I am committed to continuous learning and thrive in collaborative team environments.
+                <!-- <h1>Hi, I'm <span>Subham</span><br>from India</h1> -->
+                <div>
+                    <a class="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white text-no-underline" href="/#contact">Hire Me</a>
+                    <a alt="Hey, I'm Payal Goel, a passionate Interior Designing student with a friendly personality and a knack for humor. I excel in prompt and effective task completion, driven by confidence and a goal-oriented mindset. Proficient in design tools like SketchUp, Adobe Illustrator, Revit, Vray, Adobe Photoshop, Figma, AutoCAD 2D, Shapr3D, HTML, CSS, Lumion, and 3ds Max, I thrive in dynamic environments and aim to make a significant impact in interior design." target="_blank" class="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3 text-no-underline" href="https://drive.google.com/file/d/1M-lZ34ox5UBIC9GXIvwkwkzwcAcB2rcX/view?usp=drive_link">
+                        <span class="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download Portfolio</span>
+                    </a>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    <!--    about   -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG-by me.jpg" alt="me" class="glow-effect">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="p">Hi, I'm Payal Goel, an enthusiastic Interior Designing student with a vibrant personality and a great sense of humor. I'm friendly by nature and love to complete tasks within the given time. My confidence and goal-oriented mindset drive me to seize every opportunity and work hard to overcome my weaknesses. My technical skills span a wide range of design tools, including SketchUp, Adobe Illustrator, Revit, Vray, Adobe Photoshop, Figma, AutoCAD 2D, Shapr3D, HTML, CSS, Lumion, and 3ds Max. With a strong inclination towards my goals, I thrive in dynamic environments and am committed to making a positive impact in the field of interior design.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DESIGN TOOLS</span>
+                                <br>Figma/Adobe Illustrator/Vray/Adobe Photoshop
+                                <br>Revit/SketchUp/AutoCAD 2D/Shapr3D/3dsmax
+                            </li>
+                            <li><span>WEB DEVELOPMENT</span><br>Html/Css/</li>
+                            <li><span>VISUALIZATION</span><br>Lumion</li>
+                            <!-- <li><span>VERSION-CONTROL</span><br>Git/Github</li>
+                            <li><span>API</span><br>Api Integration</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb'24</span><br>State Youth Wokshop | Chandigarh University</li>
+                            <li><span>Dec'23</span><br>National Adventure Camp | Himachal Pradesh</li>
+                            <li><span>Dec'23</span><br>Special Winter Day Camp| Khajurla</li>
+                            <li><span>Aug'22 - July'23</span><br>Social Media Co-Head | ORTUS | Student Organization</li>
+                            <li><span>Aug'22 - Present</span><br>Graphic Designer | LPUNSS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B. Design in Interior and Furniture Design | 2021</span><br>Lovely Professional University | Phagwara</li>
+                            <li><span>Higher Secondary Education | 2019</span><br>Budding Buds Sr. Sec. School | Assam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        #achievement .sub-title {
+            margin-bottom: 20px;
+        }
+        #achievement .achievement-list .achievement .layer p {
+            font-size: 18px;
+        }
+    </style>
+    <div id="achievement">
+        <div class="container1">
+            <h1 class="sub-title">My Achievement</h1>
+            <div class="achievement-list">
+                <div class="achievement">
+                    <img src="achievement.png">
+                    <div class="layer">
+                        <h1>National Achiever's</h1>
+                        <p>Awarded "National Achiever's" at Abhinandan 3.0 program May'24</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- -----services----- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Interior Design</h2>
+                    <p>Leveraging design tools like SketchUp, Revit, and AutoCAD 2D for comprehensive interior designing</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Utilizing Adobe Illustrator, Photoshop, and Figma to create stunning graphics and layouts</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>3D Modeling and Rendering</h2>
+                    <p>Creating detailed 3D models and renders with tools like 3ds Max, Vray, and Lumion</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------portfolio------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png">
+                        <div class="layer">
+                            <h3>RESIDENTIAL SITE</h3>
+                            <p>Integrated functionality, aesthetics, and sustainability in residential design using AutoCAD and Revit</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                            <h3>ELEMENTARY SCHOOL</h3>
+                            <p>Designed child-centered school interiors focusing on safety, accessibility, and nurturing learning environments with AutoCAD and Revit.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-3.png">
+                        <div class="layer">
+                            <h3>DEPARTMENTAL STORE</h3>
+                            <p>optimized retail layouts, analyzed traffic patterns, and selected durable materials for high-traffic areas</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                    <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------contact------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>payalgoyalddm@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 8822773140</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/payal-goel-a8720624a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://youtube.com/@perspective_design2024?si=QD1oyZiLGFJCqhhe"><i class="fa-brands fa-square-youtube"></i></a>
+                        <a href="https://www.instagram.com/goelpayal_?igsh=Zjk3cm40bTF2cmFj"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://open.spotify.com/user/31ys5skx6r2qccydiqs7xejyqgim?si=NMJazAm8RI-rZr9SOYMBOQ"><i class="fa-brands fa-spotify"></i></a>
+
+                    </div>
+                    <a href="mycv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" spellcheck="true" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" spellcheck="true" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="Message" spellcheck="true" rows="6" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+           <pre><p>&copy; 2024 Payal. All Rights Reserved.</p></pre>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script>
+
+    const text = document.querySelector(".sec-text");
+    const textLoad = () => {
+        setTimeout(() => {
+            text.textContent = "Payal";
+        }, 0);
+        setTimeout(() => {
+            text.textContent = " a Designer";
+        }, 4000);
+        setTimeout(() => {
+            text.textContent = " a Creater";
+        }, 5000);
+        setTimeout(() => {
+            text.textContent = " a Innovator";
+        }, 6000);
+    }
+    textLoad();
+    setInterval(textLoad,7000);
+
+</script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzECxwKDQGJRFWxRZeGkz8YjQ4LBHaKiX71pJb5qfPM6Cdsqe0CJxz6VolO2eiAolYd/exec'
+        const form = document.forms['submit-to-google-sheet']
+    
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
