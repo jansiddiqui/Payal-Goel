@@ -191,7 +191,7 @@
                     <a href="payalcv.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form name="submit-to-google-sheet">
+                    <form action="https://formspree.io/f/mgvwbvjv" method="POST">
                         <input type="text" spellcheck="true" name="Name" placeholder="Enter Your Name" required>
                         <input type="email" spellcheck="true" name="Email" placeholder="Enter Your Email" required>
                         <textarea name="Message" spellcheck="true" rows="6" placeholder="Enter Your Message"></textarea>
@@ -201,7 +201,7 @@
             </div>
         </div>
         <div class="copyright">
-           <pre><p>&copy; 2024 Payal. All Rights Reserved.</p></pre>
+           <pre><p>&copy; 2024 Payal Goel. All Rights Reserved.</p></pre>
         </div>
     </div>
 
@@ -244,19 +244,6 @@
     setInterval(textLoad,7000);
 
 </script>
-
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzECxwKDQGJRFWxRZeGkz8YjQ4LBHaKiX71pJb5qfPM6Cdsqe0CJxz6VolO2eiAolYd/exec'
-        const form = document.forms['submit-to-google-sheet']
-    
-        form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-
     <script>
         var sidemenu = document.getElementById("sidemenu");
 
